@@ -15,7 +15,7 @@ import works from './projects'
 import codeBlock from './codeBlock'
 import customImage from './customImage'
 import richText from './richText'
-import excerptText from './excerptText'
+import normalText from './normalText'
 
 export const schemaTypes = [
   abouts,
@@ -27,7 +27,7 @@ export const schemaTypes = [
   contact,
   customImage,
 
-  excerptText,
+  normalText,
   experiences,
   featured,
   richText,

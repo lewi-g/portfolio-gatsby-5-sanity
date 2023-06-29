@@ -1,6 +1,6 @@
 export default {
   name: 'richText',
-  title: 'Body',
+  title: 'Body Text',
   type: 'array',
   of: [
     {

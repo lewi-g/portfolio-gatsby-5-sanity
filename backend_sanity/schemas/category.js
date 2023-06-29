@@ -28,7 +28,7 @@ export default {
     {
       name: 'description',
       title: 'Description',
-      type: 'richText',
+      type: 'normalText',
     },
   ],
   preview: {
