@@ -28,24 +28,15 @@ export default {
     },
     {
       name: 'categories',
-      title: 'Categories',
+      title: 'Categories/Tags',
       type: 'array',
-      of: [
-        {
-          type: 'reference',
-          to: [{type: 'category'}],
-        },
-      ],
+      of: [{type: 'reference', to: [{type: 'category'}]}],
     },
     {
       name: 'author',
       title: 'Author',
       type: 'reference',
-      to: [
-        {
-          type: 'author',
-        },
-      ],
+      to: [{type: 'author'}],
     },
     {
       name: 'coverImage',
