@@ -2,7 +2,7 @@ import abouts from './abouts'
 import author from './author'
 import brands from './brands'
 import blog from './blog'
-import category from './category'
+import tag from './tag'
 import contact from './contact'
 import experiences from './experiences'
 import featured from './featured'
@@ -22,7 +22,7 @@ export const schemaTypes = [
   author,
   blog,
   brands,
-  category,
+  tag,
   codeBlock,
   contact,
   customImage,

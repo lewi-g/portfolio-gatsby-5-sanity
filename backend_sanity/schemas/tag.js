@@ -1,14 +1,14 @@
 import {MdCategory} from 'react-icons/md'
 
 export default {
-  name: 'category',
-  title: 'Category/Tag',
+  name: 'tag',
+  title: 'Tag',
   type: 'document',
   icon: MdCategory,
   fields: [
     {
       name: 'name',
-      title: 'Category Name',
+      title: 'Tag Name',
       type: 'string',
     },
     {
@@ -21,8 +21,8 @@ export default {
       },
     },
     {
-      name: 'categoryImage',
-      title: 'Category Image',
+      name: 'tagImage',
+      title: 'Tag Image',
       type: 'customImage',
     },
     {

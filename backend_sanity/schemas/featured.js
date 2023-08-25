@@ -27,13 +27,13 @@ export default {
       ],
     },
     {
-      name: 'categories',
-      title: 'Featured Categories',
+      name: 'tags',
+      title: 'Featured Tags',
       type: 'array',
       of: [
         {
           type: 'reference',
-          to: [{type: 'category'}],
+          to: [{type: 'tag'}],
         },
       ],
       validation: (Rule) => [
